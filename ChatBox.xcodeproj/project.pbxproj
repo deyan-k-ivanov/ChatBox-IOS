@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -553,7 +553,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S9XP5HTTGR;
 				INFOPLIST_FILE = ChatBox/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "ChatBox App";
+				INFOPLIST_KEY_CFBundleDisplayName = ChatNetwork;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -586,7 +586,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S9XP5HTTGR;
 				INFOPLIST_FILE = ChatBox/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "ChatBox App";
+				INFOPLIST_KEY_CFBundleDisplayName = ChatNetwork;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
