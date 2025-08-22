@@ -9,9 +9,9 @@ target 'ChatBox' do
   pod 'Firebase/Messaging'
   pod 'Firebase/Analytics'
 
-  # Add Facebook SDK pods - DOWNGRADE to stable version
-  pod 'FBSDKCoreKit', '~> 16.3.1'
-  pod 'FBSDKLoginKit', '~> 16.3.1'
+  # Add Facebook SDK pods - LATEST version with privacy manifest
+  pod 'FBSDKCoreKit', '~> 17.0.0'
+  pod 'FBSDKLoginKit', '~> 17.0.0'
   
 
 end
@@ -24,3 +24,4 @@ post_install do |installer|
     end
   end
 end
+

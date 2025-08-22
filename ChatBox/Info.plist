@@ -144,8 +144,7 @@
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>We need access to your photos for profile pictures</string>
 
-	<key>FacebookAdvertiserIDCollectionEnabled</key>
-	<false/>
+
 	<key>FirebaseAppDelegateProxyEnabled</key>
 	<false/>
 	<key>FirebaseMessagingAutoInitEnabled</key>
@@ -172,8 +171,8 @@
 	<key>FacebookDisplayErrorMessage</key>
 	<false/>
 	
-	<key>NSUserTrackingUsageDescription</key>
-	<string>Allow tracking to help us get more people to the app. No any data is shared with third parties.</string>
+	<key>FacebookAdvertiserIDCollectionEnabled</key>
+	<false/>
 
 </dict>
 </plist>
