@@ -21,7 +21,7 @@
 	<key>CFBundlePackageType</key>
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
-	<string>17</string>
+	<string>18</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
@@ -163,7 +163,7 @@
 	</array>
 
 	<key>FacebookAutoLogAppEventsEnabled</key>
-	<true/>
+	<false/>
 	
 	<key>FacebookLimitedLoginEnabled</key>
 	<true/>
@@ -173,6 +173,17 @@
 	
 	<key>FacebookAdvertiserIDCollectionEnabled</key>
 	<false/>
+	
+	<key>FacebookDataProcessingOptions</key>
+	<array>
+		<string>LDU</string>
+	</array>
+	
+	<key>FacebookDataProcessingOptionsCountry</key>
+	<integer>1</integer>
+	
+	<key>FacebookDataProcessingOptionsState</key>
+	<integer>1000</integer>
 
 </dict>
 </plist>

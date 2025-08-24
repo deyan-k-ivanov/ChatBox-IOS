@@ -3,7 +3,7 @@ import WebKit
 import FBSDKLoginKit
 import FBSDKCoreKit
 
-// 📦 NATIVE Facebook Login с LIMITED LOGIN - Facebook SDK 15.1.0
+// 📦 NATIVE Facebook Login с LIMITED LOGIN - Facebook SDK 18.0.0
 // БЕЗ Graph API calls, БЕЗ warnings - само LIMITED access
 class FacebookLoginManager: NSObject {
     static let shared = FacebookLoginManager()  // ПРОСТ singleton като Apple
@@ -50,8 +50,8 @@ class FacebookLoginManager: NSObject {
         print("[DEBUG] - [Facebook] - [INFO] - [Direct]: Стартиrane на Facebook Login ДИРЕКТНО (БЕЗ delay)") 
         print("[DEBUG] - [Facebook] - [INFO] - [Direct]: ApplicationDelegate осигурява URL scheme validation")
         
-        // 📦 NATIVE SDK MARKER: ФАЙЛ ВЕРСИЯ 2025-08-19-07:15 (Facebook SDK 15.1.0 LIMITED LOGIN) 
-        print("[DEBUG] - [Facebook] - [LIMITED_LOGIN] - [FileVersion]: 📦 FacebookLoginManager v2025-08-19-07:15 SDK 15.1.0!")
+        // 📦 NATIVE SDK MARKER: ФАЙЛ ВЕРСИЯ 2025-08-24-16:30 (Facebook SDK 18.0.0 LIMITED LOGIN) 
+        print("[DEBUG] - [Facebook] - [LIMITED_LOGIN] - [FileVersion]: 📦 FacebookLoginManager v2025-08-24-16:30 SDK 18.0.0!")
         
         // 🔄 SYNC MARKER: FORCE iCloud SYNC DETECTION - v2025-08-19-07:15-SYNC
         print("[DEBUG] - [Facebook] - [SYNC_MARKER] - [iCloud]: 🔄 SYNC TEST v2025-08-19-07:15 - ТОЗИ MARKER ТРЯБВА ДА СЕ ВИЖДА В XCODE BUILD!")
@@ -59,10 +59,10 @@ class FacebookLoginManager: NSObject {
         // NATIVE Facebook Limited Login (БЕЗ Graph API calls!)
         let loginManager = LoginManager()
         
-        print("[DEBUG] - [Facebook] - [INFO] - [Config]: Facebook SDK v15.1.0 Limited Login - using standard permissions API")
+        print("[DEBUG] - [Facebook] - [INFO] - [Config]: Facebook SDK v18.0.0 Limited Login - using standard API with limited tracking")
         
-        // LIMITED LOGIN for SDK v15.1.0 - using modern permissions API (fixed deprecated method)
-        loginManager.logIn(permissions: ["email"], from: viewController) { [weak self] result, error in
+        // За SDK v18.0.0 използваме стандартния метод БЕЗ permissions (Limited Login)
+        loginManager.logIn(permissions: [], from: viewController) { [weak self] result, error in
             DispatchQueue.main.async {
                 self?.isLoginInProgress = false
                 self?.handleFacebookLoginResult(result: result, error: error)
@@ -117,11 +117,10 @@ class FacebookLoginManager: NSObject {
         
         let postData = [
             "case": "facebook-register",
-            "access_token": accessToken,
             "user_id": userId,
             "email": email,
             "platform": "ios",
-            "login_type": "limited"  // Маркираме като Limited Login
+            "login_type": "limited"  // Маркираме като Limited Login - БЕЗ access_token!
         ]
         
         print("[DEBUG] - [Facebook] - [INFO] - [Backend]: Изпращане на LIMITED login data към backend")

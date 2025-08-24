@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/FBSDKLoginKit-Swift.h</key>
 		<data>
-		PF51NW/pGV+IWoOrpBJGUhDbN30=
+		p88c6z306trKlSwTc7qrjgHEZyg=
 		</data>
 		<key>Headers/FBSDKLoginKit.h</key>
 		<data>
@@ -30,23 +30,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KVKW4hH6cqoHXSWusRLq2sWW/Zc=
+		uax+jp9mLOGL5JKKxxiZsAEt+qs=
 		</data>
 		<key>Modules/FBSDKLoginKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		54b2zs1bfpk6hiYuhiW6naCu+h0=
+		4eOPUoqZniR7lDzqCyEdtD2PvOw=
 		</data>
 		<key>Modules/FBSDKLoginKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Qy1jW7TeaoFT1sLZ34yzpG5prLU=
+		wEUJ+A7lyj7RKm3WcnlzGJcNV88=
 		</data>
 		<key>Modules/FBSDKLoginKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		8J2FE7HMOp+RXbPwCDl/OxT8S7c=
+		gwRvQPSNz3H0318qARQufwgK9Nw=
 		</data>
 		<key>Modules/FBSDKLoginKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Qy1jW7TeaoFT1sLZ34yzpG5prLU=
+		wEUJ+A7lyj7RKm3WcnlzGJcNV88=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -84,7 +84,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D3li8kobOOJ4PbkOf7ON37Mqrx13pBP0uJ6CjdQ/xUQ=
+			ztaa45A0M4CFM7tKWswJ+Lx9VY0UEx0oOKE84SAcHT0=
 			</data>
 		</dict>
 		<key>Headers/FBSDKLoginKit.h</key>
@@ -105,28 +105,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			otLvCaFFvvsH2p2rr92zyti2Xrh/LUYkV/dlnLl/VDw=
+			W3F+3iEV7N75xyRyCVA9e3wxAJoMlQ1hkr0vBiVGQVs=
 			</data>
 		</dict>
 		<key>Modules/FBSDKLoginKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W8vLX4P+Hcv5I9wT4f4A5UMDF2p8UzUzmd/c6SKqCcw=
+			TsMd5gI3c9XITOrHiXuBO5L7UannkLRLjVuN7ofh+zs=
 			</data>
 		</dict>
 		<key>Modules/FBSDKLoginKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2GpveiGwuliFv0HuLNq2LkoqEc04XZEydtpx9i96cQM=
+			44ZLJZx3UgvPsvXHMno9A6Xx7sCTRviouoM2FYv3AQY=
 			</data>
 		</dict>
 		<key>Modules/FBSDKLoginKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W8vLX4P+Hcv5I9wT4f4A5UMDF2p8UzUzmd/c6SKqCcw=
+			TsMd5gI3c9XITOrHiXuBO5L7UannkLRLjVuN7ofh+zs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

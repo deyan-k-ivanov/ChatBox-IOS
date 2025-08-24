@@ -9,9 +9,9 @@ target 'ChatBox' do
   pod 'Firebase/Messaging'
   pod 'Firebase/Analytics'
 
-  # Add Facebook SDK pods - LATEST version with privacy manifest
-  pod 'FBSDKCoreKit', '~> 17.0.0'
-  pod 'FBSDKLoginKit', '~> 17.0.0'
+  # Add Facebook SDK pods - latest stable version (auto-detect)
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
   
 
 end
